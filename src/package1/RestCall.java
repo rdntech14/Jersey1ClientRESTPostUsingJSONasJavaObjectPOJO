@@ -111,6 +111,7 @@ public class RestCall {
 
 			System.out.println("\n###### Formatted JSON response ####### \n");
 			System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(responsePOJO));
+			
 
 		} catch (JsonGenerationException e) {
 			e.printStackTrace();
