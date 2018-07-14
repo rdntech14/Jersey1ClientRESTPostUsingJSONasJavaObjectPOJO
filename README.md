@@ -44,7 +44,7 @@ url : http://localhost:8080/student/list
 
 url : http://localhost:8080/student 
 
-body : 
+Request body : 
 ```
 {
 	"id": 1111,
@@ -59,6 +59,12 @@ body :
 }
 ```
 
+Response body : 
+```
+{
+  "msg" : "Student Updated"
+}
+```
 **PUT**
 
 url : http://localhost:8080/student/1 
@@ -78,7 +84,7 @@ body :
 }
 ```
 
-** Program Output **
+**Program Output**
 ```
 
 ###### Request Java Object toString method ####### 
